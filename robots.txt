@@ -1,4 +1,2 @@
 User-agent: *
-Allow: /
-Sitemap: Sitemap: https://channingsturgill-commits.github.io/primetechsupport/sitemap.xml
-
+Allow: /Sitemap: https://channingsturgill-commits.github.io/primetechsupport/sitemap.xml
