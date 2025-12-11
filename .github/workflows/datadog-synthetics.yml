@@ -1,0 +1,717 @@
+# This workflow will trigger Datadog Synthetic tests within your Datadog organisation
+# For more information on running Synthetic tests within your GitHub workflows see: https://docs.datadoghq.com/synthetics/cicd_integrations/github_actions/
+
+# This workflow uses actions that are not certified by GitHub.
+# They are provided by a third-party and are governed by
+# separate terms of service, privacy policy, and support
+# documentation.<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>PrimeTech Support | Remote Tech Support for WiFi, Software & PCs</title>
+
+  <!-- Primary SEO meta -->
+  <meta name="description" content="PrimeTech Support provides fast, remote tech support for slow WiFi, software issues, and basic computer problems. Book online and pay securely with PayPal, CashApp, Visa, and Mastercard." />
+  <meta name="keywords" content="PrimeTech Support, remote tech support, slow WiFi help, software issues, computer support, online tech support" />
+  <link rel="canonical" href="https://channingsturgill-commits.github.io/primetech-support/" />
+User-agent: *
+Allow: /
+Sitemap: https://channingsturgill-commits.github.io/primetech-support/sitemap.xml
+// Mobile navigation toggle
+const navToggle = document.getElementById("nav-toggle");
+const nav = document.getElemebody {<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Terms of Service | PrimeTech Support</title>
+  <meta name="description" content="Terms of Service for using PrimeTech Support's remote tech support services." />
+  <link rel="canonical" href="https://channingsturgill-commits.github.io/primetech-support/terms.html" />
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="header">
+  <div class="container header-inner">
+    <a href="index.html#home" class="logo-link">
+      <img src="logo.svg" alt="PrimeTech Support logo" class="logo-img">
+      <span class="logo-text">PrimeTech Support</span>
+    </a>
+    <nav class="nav" id="nav" aria-label="Main navigation">
+      <a href="index.html#home">Home</a>
+      <a href="index.html#about">About</a>
+      <a href="index.html#services">Services</a>
+      <a href="index.html#pricing">Pricing</a>
+      <a href="index.html#contact">Contact</a>
+      <a href="privacy.html">Privacy Policy</a>
+      <a href="terms.html">Terms of Service</a>
+    </nav>
+    <button id="nav-toggle" class="nav-toggle" aria-label="Toggle navigation menu">☰</button>
+  </div>
+</header>
+
+<section class="section">
+  <div class="container">
+    <h2>Terms of Service</h2>
+    <p>Last updated: 2025</p>
+
+    <h3>1. Overview</h3>
+    <p>By using PrimeTech Support’s remote technical services, you agree to these Terms of Service.</p>
+
+    <h3>2. Service Limitations</h3>
+    <ul>
+      <li>All standard services are performed remotely unless otherwise agreed.</li>
+      <li>We cannot control issues caused by hardware failure, internet outages, or third-party software defects.</li>
+      <li>We cannot guarantee full resolution in every case, though we will make reasonable efforts.</li>
+    </ul>
+
+    <h3>3. Payments</h3>
+    <ul>
+      <li>Payments are handled through third-party providers such as PayPal and CashApp, or card via supported platforms.</li>
+      <li>Once a support session begins, payments are generally non-refundable except where required by law.</li>
+    </ul>
+
+    <h3>4. Scheduling</h3>
+    <ul>
+      <li>Bookings are handled online via scheduling tools such as Calendly.</li>
+      <li>Sessions may be rescheduled with reasonable notice, subject to availability.</li>
+    </ul>
+
+    <h3>5. Remote Access</h3>
+    <ul>
+      <li>You may be asked to install secure remote access software (for example, AnyDesk or TeamViewer).</li>
+      <li>You retain control during the session and may disconnect at any time.</li>
+      <li>We will not access personal files without your permission.</li>
+    </ul>
+
+    <h3>6. Liability</h3>
+    <p>PrimeTech Support is not liable for:</p>
+    <ul>
+      <li>Pre-existing issues such as prior malware, hardware damage, or failing components.</li>
+      <li>Loss of data where no proper backup existed prior to the session.</li>
+      <li>Third-party software or service outages beyond our control.</li>
+    </ul>
+
+    <h3>7. Changes to These Terms</h3>
+    <p>We may update these Terms of Service from time to time. Continued use of our services after changes means you accept the updated terms.</p>
+
+    <h3>8. Contact</h3>
+    <p>For questions about these terms, contact us through the form on our <a href="index.html#contact">Contact</a> section.</p>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">© <span id="year"></span> PrimeTech Support — All Rights Reserved</div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
+
+  margin: 0;
+  font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  background: #f4f7fa;
+  color: #222;
+}
+
+.container {
+  width: 90%;
+  max-width: 1100px;
+  margin: auto;
+}
+
+.header {
+  background: #ffffff;
+  border-bottom: 1px solid #ddd;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.header-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 0;
+}
+
+.logo-link {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  text-decoration: none;
+  color: inherit;
+}
+
+.logo-img {
+  width: 36px;
+  height: 36px;
+}
+
+.logo-text {
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+
+.nav a {
+  margin-left: 1.5rem;
+  text-decoration: none;
+  font-weight: 500;
+  color: #333;
+}
+
+.nav a:hover {
+  color: #1d72f2;
+}
+
+.nav-toggle {
+  display: none;
+  font-size: 1.7rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.hero {
+  background: #0d1b2a;
+  color: #ffffff;
+  padding: 5rem 0;
+  text-align: center;
+}
+
+.hero-inner h1 {
+  font-size: 2.2rem;
+  margin-bottom: 1rem;
+}
+
+.hero-inner p {
+  max-width: 600px;
+  margin: 0 auto 1.5rem;
+}
+
+.btn-primary {
+  background: #1d72f2;
+  padding: 0.8rem 1.4rem;
+  border-radius: 8px;
+  text-decoration: none;
+  color: white;
+  display: inline-block;
+  margin-top: 0.5rem;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+  text-align: center;
+}
+
+.btn-primary:hover {
+  background: #1557b0;
+}
+
+.btn-outline {
+  padding: 0.8rem 1.4rem;
+  border-radius: 8px;
+  border: 2px solid #1d72f2;
+  text-decoration: none;
+  color: #1d72f2;
+  display: inline-block;
+  font-weight: 600;
+}
+
+.btn-outline:hover {
+  background: #e0edff;
+}
+
+.section {
+  padding: 4rem 0;
+}
+
+.alt {
+  background: #e9edf3;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.grid-3 {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 2rem;
+}
+
+.card,
+.price-card {
+  padding: 2rem;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+.price-card .price {
+  font-size: 1.6rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.price-card ul {
+  padding-left: 1.2rem;
+  margin: 0 0 1.2rem;
+}
+
+.price-card.featured {
+  background: #1d72f2;
+  color: white;
+}
+
+.price-card.featured .price {
+  color: #ffffff;
+}
+
+.price-card.featured ul {
+  color: #e5efff;
+}
+
+.price-card.featured a.btn-primary {
+  background: #ffffff;
+  color: #1d72f2;
+}
+
+.price-card.featured a.btn-primary:hover {
+  background: #e0edff;
+}
+
+.payment-buttons {
+  display: grid;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.btn-pay {
+  padding: 0.6rem;
+  text-align: center;
+  color: white;
+  background: #111827;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+.btn-pay:hover {
+  background: #1f2937;
+}
+
+.schedule-btn {
+  display: block;
+  margin-top: 0.5rem;
+  text-align: center;
+}
+
+.contact-form {
+  max-width: 500px;
+  margin: auto;
+  display: grid;
+  gap: 1rem;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 0.8rem;
+  border-radius: 8px;
+  border: 1px solid #bbb;
+  font-size: 1rem;
+  font-family: inherit;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border-color: #1d72f2;
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(29, 114, 242, 0.15);
+}
+
+.calendly-inline-widget {
+  margin-top: 1rem;
+}
+
+.footer {
+  background: #0d1b2a;
+  color: white;
+  text-align: center;
+  padding: 1.5rem 0;
+  margin-top: 2rem;
+}
+
+@media (max-width: 768px) {
+  .nav {
+    display: none;
+    flex-direction: column;
+    background: #ffffff;
+    padding: 1rem;
+  }
+
+  .nav.open {
+    display: flex;
+  }
+
+  .nav a {
+    margin: 0.8rem 0;
+  }
+
+  .nav-toggle {
+    display: block;
+  }
+}
+ntById("nav");<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://channingsturgill-commits.github.io/primetech-support/</loc>
+  </url>
+  <url>
+    <loc>https://channingsturgill-commits.github.io/primetech-support/privacy.html</loc>
+  </url>
+  <url>
+    <loc>https://channingsturgill-commits.github.io/primetech-support/terms.html</loc>
+  </url>
+</urlset>
+
+
+if (navToggle && nav) {
+  navToggle.addEventListener("click", () => {
+    nav.classList.toggle("open");
+  });
+}
+
+// Contact form handler
+const form = document.getElementById("contact-form");
+const formResponse = document.getElementById("form-response");
+
+if (form && formResponse) {
+  form.addEventListener("submit", (e) => {
+    e.preventDefault();
+    formResponse.textContent = "Thanks! We’ll respond shortly.";
+    formResponse.style.color = "green";
+    form.reset();
+  });
+}
+
+// Auto year in footer
+const yearSpan = document.getElementById("year");
+if (yearSpan) {
+  yearSpan.textContent = String(new Date().getFullYear());
+}
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="PrimeTech Support | Remote Tech Support Made Simple" />
+  <meta property="og:descript<svg width="200" height="60" viewBox="0 0 200 60" xmlns="http://www.w3.org/2000/svg">
+  <defs><!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy | PrimeTech Support</title>
+  <meta name="description" content="Privacy Policy for PrimeTech Support remote tech services. Learn how we collect, use, and protect your information." />
+  <link rel="canonical" href="https://channingsturgill-commits.github.io/primetech-support/privacy.html" />
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="header">
+  <div class="container header-inner">
+    <a href="index.html#home" class="logo-link">
+      <img src="logo.svg" alt="PrimeTech Support logo" class="logo-img">
+      <span class="logo-text">PrimeTech Support</span>
+    </a>
+    <nav class="nav" id="nav" aria-label="Main navigation">
+      <a href="index.html#home">Home</a>
+      <a href="index.html#about">About</a>
+      <a href="index.html#services">Services</a>
+      <a href="index.html#pricing">Pricing</a>
+      <a href="index.html#contact">Contact</a>
+      <a href="privacy.html">Privacy Policy</a>
+      <a href="terms.html">Terms of Service</a>
+    </nav>
+    <button id="nav-toggle" class="nav-toggle" aria-label="Toggle navigation menu">☰</button>
+  </div>
+</header>
+
+<section class="section">
+  <div class="container">
+    <h2>Privacy Policy</h2>
+    <p>Last updated: 2025</p>
+
+    <h3>1. Introduction</h3>
+    <p>PrimeTech Support (“we”, “our”, “us”) provides remote technical support services. We respect your privacy and are committed to protecting your information.</p>
+
+    <h3>2. Information We Collect</h3>
+    <ul>
+      <li>Name and contact information (such as email).</li>
+      <li>Details about the device or software issues you report.</li>
+      <li>Payment information processed by third-party providers (PayPal, CashApp). We do not store full card numbers.</li>
+      <li>Session details related to remote support services.</li>
+    </ul>
+
+    <h3>3. How We Use Your Information</h3>
+    <ul>
+      <li>To provide remote technical support and resolve your issues.</li>
+      <li>To communicate with you about appointments or service updates.</li>
+      <li>To process payments securely through trusted providers.</li>
+      <li>To improve our services and support quality.</li>
+    </ul>
+
+    <h3>4. Sharing Your Information</h3>
+    <p>We do not sell your personal data. We may share relevant information with:</p>
+    <ul>
+      <li>Payment processors (e.g., PayPal, CashApp).</li>
+      <li>Scheduling platforms (e.g., Calendly).</li>
+      <li>Authorities when required by law.</li>
+    </ul>
+
+    <h3>5. Data Security</h3>
+    <p>We use secure tools and encrypted connections where possible. You control remote access at all times and may end a session whenever you wish.</p>
+
+    <h3>6. Your Rights</h3>
+    <ul>
+      <li>You may request access to the personal information we hold about you.</li>
+      <li>You may request correction or deletion of your information, subject to legal retention obligations.</li>
+    </ul>
+
+    <h3>7. Contact</h3>
+    <p>For privacy-related questions, contact us through the form on our <a href="index.html#contact">Contact</a> section.</p>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">© <span id="year"></span> PrimeTech Support — All Rights Reserved</div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
+
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#1d72f2;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0d1b2a;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect x="10" y="10" rx="12" ry="12" width="40" height="40" fill="url(#grad)" />
+  <circle cx="30" cy="30" r="8" fill="#ffffff" />
+  <text x="60" y="35" font-family="Inter, Arial, sans-serif" font-size="18" fill="#0d1b2a" font-weight="700">
+    PrimeTech
+  </text>
+</svg>
+ion" content="Remote tech support for slow WiFi, software issues, and basic computer problems. Simple online booking and secure payment." />
+  <meta property="og:url" content="https://channingsturgill-commits.github.io/primetech-support/" />
+  <meta property="og:site_name" content="PrimeTech Support" />
+  <meta property="og:image" content="https://channingsturgill-commits.github.io/primetech-support/logo.png" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="PrimeTech Support | Remote Tech Support Made Simple" />
+  <meta name="twitter:description" content="Remote support for WiFi, software, and computer issues. Book online and get fast help." />
+  <meta name="twitter:image" content="https://channingsturgill-commits.github.io/primetech-support/logo.png" />
+
+  <!-- JSON-LD Schema -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ProfessionalService",
+    "name": "PrimeTech Support",
+    "url": "https://channingsturgill-commits.github.io/primetech-support/",
+    "description": "Remote tech support for slow WiFi, software problems, and basic computer issues, with online booking and payment options.",
+    "areaServed": {
+      "@type": "Place",
+      "name": "Remote / Online"
+    },
+    "paymentAccepted": ["CashApp", "PayPal", "Credit Card"],
+    "sameAs": [
+      "https://www.paypal.me/chanvanman",
+      "https://cash.app/$chanthema"
+    ]
+  }
+  </script>
+
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+<header class="header">
+  <div class="container header-inner">
+    <a href="#home" class="logo-link">
+      <img src="logo.svg" alt="PrimeTech Support logo" class="logo-img">
+      <span class="logo-text">PrimeTech Support</span>
+    </a>
+    <nav class="nav" id="nav" aria-label="Main navigation">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#pricing">Pricing</a>
+      <a href="#contact">Contact</a>
+      <a href="privacy.html">Privacy Policy</a>
+      <a href="terms.html">Terms of Service</a>
+    </nav>
+    <button id="nav-toggle" class="nav-toggle" aria-label="Toggle navigation menu">☰</button>
+  </div>
+</header>
+
+<section id="home" class="hero">
+  <div class="container hero-inner">
+    <h1>Remote Tech Support Made Simple</h1>
+    <p>Fast, friendly remote support for slow WiFi, software issues, and basic computer problems.</p>
+    <a href="#pricing" class="btn-primary">Book Online Now</a>
+  </div>
+</section>
+
+<section id="about" class="section">
+  <div class="container">
+    <h2>About PrimeTech Support</h2>
+    <p>PrimeTech Support specializes in remote troubleshooting for everyday tech problems. We help home users and small businesses fix issues quickly without needing an on-site visit.</p>
+  </div>
+</section>
+
+<section id="services" class="section alt">
+  <div class="container">
+    <h2>What We Help With</h2>
+    <div class="grid-3">
+      <div class="card">
+        <h3>Slow WiFi Fixes</h3>
+        <p>WiFi performance improvements, router settings, and connection stability tuning done remotely.</p>
+      </div>
+      <div class="card">
+        <h3>Software Issues</h3>
+        <p>Fixing installation errors, crashes, update problems, and misbehaving apps.</p>
+      </div>
+      <div class="card">
+        <h3>Basic Computer Support</h3>
+        <p>General cleanup, basic troubleshooting, and help with common day-to-day computer problems.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="pricing" class="section">
+  <div class="container">
+    <h2>Remote Support Pricing</h2>
+    <p>Select a plan and book instantly. Payments are handled securely online.</p>
+    <div class="grid-3">
+      <div class="price-card">
+        <h3>Basic Support</h3>
+        <p class="price">$20 / session</p>
+        <ul>
+          <li>Basic troubleshooting</li>
+          <li>Simple WiFi checks</li>
+          <li>Minor software issues</li>
+        </ul>
+        <div class="payment-buttons">
+          <a class="btn-pay" href="https://www.paypal.me/chanvanman/20" target="_blank" rel="noopener noreferrer">Pay with PayPal</a>
+          <a class="btn-pay" href="https://cash.app/$chanthema/20" target="_blank" rel="noopener noreferrer">Pay with CashApp</a>
+          <a class="btn-pay" href="#" target="_blank" rel="noopener noreferrer">Pay with Visa/MasterCard</a>
+        </div>
+        <a class="btn-primary schedule-btn" href="#booking">Schedule Basic Session</a>
+      </div>
+
+      <div class="price-card featured">
+        <h3>Advanced Support</h3>
+        <p class="price">$35 / session</p>
+        <ul>
+          <li>Deeper diagnostics</li>
+          <li>Software repair & reinstalls</li>
+          <li>WiFi optimization</li>
+        </ul>
+        <div class="payment-buttons">
+          <a class="btn-pay" href="https://www.paypal.me/chanvanman/35" target="_blank" rel="noopener noreferrer">Pay with PayPal</a>
+          <a class="btn-pay" href="https://cash.app/$chanthema/35" target="_blank" rel="noopener noreferrer">Pay with CashApp</a>
+          <a class="btn-pay" href="#" target="_blank" rel="noopener noreferrer">Pay with Visa/MasterCard</a>
+        </div>
+        <a class="btn-primary schedule-btn" href="#booking">Schedule Advanced Session</a>
+      </div>
+
+      <div class="price-card">
+        <h3>Premium Support</h3>
+        <p class="price">$50 / session</p>
+        <ul>
+          <li>Full remote session</li>
+          <li>Comprehensive cleanup</li>
+          <li>Advanced performance tuning</li>
+        </ul>
+        <div class="payment-buttons">
+          <a class="btn-pay" href="https://www.paypal.me/chanvanman/50" target="_blank" rel="noopener noreferrer">Pay with PayPal</a>
+          <a class="btn-pay" href="https://cash.app/$chanthema/50" target="_blank" rel="noopener noreferrer">Pay with CashApp</a>
+          <a class="btn-pay" href="#" target="_blank" rel="noopener noreferrer">Pay with Visa/MasterCard</a>
+        </div>
+        <a class="btn-primary schedule-btn" href="#booking">Schedule Premium Session</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="booking" class="section">
+  <div class="container">
+    <h2>Schedule Your Remote Support Session</h2>
+    <p>Pick a time that works best for you.</p>
+    <div
+      class="calendly-inline-widget"
+      data-url="https://calendly.com/primetech-support"
+      style="min-width:320px;height:650px;"
+    ></div>
+    <script src="https://assets.calendly.com/assets/external/widget.js" async></script>
+  </div>
+</section>
+
+<section id="contact" class="section alt">
+  <div class="container">
+    <h2>Contact Us</h2>
+    <p>Have a question before booking? Send us a message.</p>
+    <form id="contact-form" class="contact-form">
+      <input id="name" name="name" type="text" placeholder="Your Name" required />
+      <input id="email" name="email" type="email" placeholder="Your Email" required />
+      <textarea id="message" name="message" placeholder="How can we help you?" rows="5" required></textarea>
+      <button type="submit" class="btn-primary">Send Message</button>
+      <p id="form-response"></p>
+    </form>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">© <span id="year"></span> PrimeTech Support — All Rights Reserved</div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
+
+
+# To get started:
+
+# 1. Add your Datadog API (DD_API_KEY) and Application Key (DD_APP_KEY) as secrets to your GitHub repository. For more information, see: https://docs.datadoghq.com/account_management/api-app-keys/.
+# 2. Start using the action within your workflow
+
+name: Run Datadog Synthetic tests
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v4
+
+    # Run Synthetic tests within your GitHub workflow.
+    # For additional configuration options visit the action within the marketplace: https://github.com/marketplace/actions/datadog-synthetics-ci
+    - name: Run Datadog Synthetic tests
+      uses: DataDog/synthetics-ci-github-action@87b505388a22005bb8013481e3f73a367b9a53eb # v1.4.0
+      with:
+        api_key: ${{secrets.DD_API_KEY}}
+        app_key: ${{secrets.DD_APP_KEY}}
+        test_search_query: 'tag:e2e-tests' #Modify this tag to suit your tagging strategy
+
+
